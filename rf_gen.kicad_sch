@@ -1824,7 +1824,7 @@
     (uuid 12596e45-6707-4319-9f3d-fd07bfb54475)
     (property "Reference" "L8" (id 0) (at 200.66 115.57 90))
     (property "Value" "3.3u" (id 1) (at 200.66 118.11 90))
-    (property "Footprint" "" (id 2) (at 200.66 121.92 0)
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (id 2) (at 200.66 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 200.66 121.92 0)
@@ -2564,7 +2564,7 @@
     (property "Value" "52.3k" (id 1) (at 195.58 126.9999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 194.056 125.984 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 194.056 125.984 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 193.04 125.73 0)
@@ -2599,7 +2599,7 @@
     (property "Value" "10k" (id 1) (at 195.58 137.1599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 194.056 136.144 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 194.056 136.144 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 193.04 135.89 0)
@@ -3238,7 +3238,7 @@
       (reference "L7") (unit 1) (value "594n") (footprint "")
     )
     (path "/12596e45-6707-4319-9f3d-fd07bfb54475"
-      (reference "L8") (unit 1) (value "3.3u") (footprint "")
+      (reference "L8") (unit 1) (value "3.3u") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/98c6b453-1edb-41b3-980c-820933811e74"
       (reference "Q1") (unit 1) (value "GS61004B") (footprint "rf_gen:GaNpx")
@@ -3253,10 +3253,10 @@
       (reference "R2") (unit 1) (value "1") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/7acdfc10-c7b8-4964-a5bd-7fbb6a01d10b"
-      (reference "R3") (unit 1) (value "52.3k") (footprint "")
+      (reference "R3") (unit 1) (value "52.3k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/7db06bf3-c515-4f51-9e87-096535d2035f"
-      (reference "R4") (unit 1) (value "10k") (footprint "")
+      (reference "R4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/05524bb0-81b6-47ef-ac3c-1b815742ae84"
       (reference "U1") (unit 1) (value "NPC81074") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
