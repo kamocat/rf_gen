@@ -3,10 +3,8 @@
 
 # Temporary files
 *.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.sch-bak
+*bck
+*bak
 *~
 \#auto_saved*
 *.tmp
