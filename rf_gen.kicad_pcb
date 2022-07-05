@@ -38,6 +38,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -2091,7 +2104,7 @@
   (dimension (type aligned) (layer "Edge.Cuts") (tstamp 186b0fd8-4043-47b9-8285-53b991261296)
     (pts (xy 170.18 93.98) (xy 66.04 93.98))
     (height 15.239999)
-    (gr_text "4.1000 in" (at 118.11 77.590001) (layer "Edge.Cuts") (tstamp 186b0fd8-4043-47b9-8285-53b991261296)
+    (gr_text "104.1400 mm" (at 118.11 77.590001) (layer "Edge.Cuts") (tstamp 186b0fd8-4043-47b9-8285-53b991261296)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -2100,7 +2113,7 @@
   (dimension (type aligned) (layer "Edge.Cuts") (tstamp a29c524d-add2-4298-a409-3bb7124c4e23)
     (pts (xy 170.18 139.7) (xy 170.18 93.98))
     (height 7.62)
-    (gr_text "1.8000 in" (at 176.65 116.84 90) (layer "Edge.Cuts") (tstamp a29c524d-add2-4298-a409-3bb7124c4e23)
+    (gr_text "45.7200 mm" (at 176.65 116.84 90) (layer "Edge.Cuts") (tstamp a29c524d-add2-4298-a409-3bb7124c4e23)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
