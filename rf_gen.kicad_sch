@@ -2198,7 +2198,7 @@
     (property "Value" "Conn_Coaxial" (id 1) (at 273.05 76.4931 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" (id 2) (at 270.51 74.93 0)
+    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" (id 2) (at 270.51 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 270.51 74.93 0)
@@ -4009,7 +4009,7 @@
       (reference "U2") (unit 1) (value "AP62150") (footprint "rf_gen:TSOT26")
     )
     (path "/129f78c6-46f2-4b09-95be-d1628639933d"
-      (reference "rf_out1") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal")
+      (reference "rf_out1") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
     )
   )
 )
