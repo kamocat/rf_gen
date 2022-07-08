@@ -15,9 +15,9 @@
     (tstamp a432a90e-b55d-431f-b092-bd003945cb35)
   )
   (fp_rect (start -12.5 4) (end 12.5 -4) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp b9f21c74-162e-4331-a1d1-67062a21ec79))
-  (pad "1" smd roundrect (at -8.5 3) (size 8 6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp fe6f4526-5397-414c-a325-c9f60dd65c3b))
-  (pad "2" smd roundrect (at 8.5 3) (size 8 6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 85841904-9da4-47cf-9fab-a882b43ab9a1))
-  (model "${KIPRJMOD}/rf_gen.3dshapes/EQ_core_vertical.wrl"
+  (pad "1" smd roundrect (at -8.5 1) (size 8 6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp fe6f4526-5397-414c-a325-c9f60dd65c3b))
+  (pad "2" smd roundrect (at 8.5 1) (size 8 6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 85841904-9da4-47cf-9fab-a882b43ab9a1))
+  (model "${KIPRJMOD}/rf_gen.3dshapes/eq_core.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
