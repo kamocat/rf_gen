@@ -20,4 +20,9 @@
   (fp_line (start 3.56 3.49) (end -3.56 3.49) (layer "F.CrtYd") (width 0.05) (tstamp 9c4851a4-04a0-404d-95cc-7bd93dcf6d91))
   (pad "1" smd rect (at -2.225 0) (size 2.16 6.48) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 77ff8541-c21f-4ff8-a134-b74c9eb4e24d))
   (pad "2" smd rect (at 2.225 0) (size 2.16 6.48) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 77ff8541-c21f-4ff8-a134-b74c9eb4e24d))
+  (model "${KIPRJMOD}/rf_gen.3dshapes/2222SQ-90N.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

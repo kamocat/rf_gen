@@ -19,4 +19,9 @@
   (pad "1" smd rect (at 0 -1.75) (size 3.75 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 07b97fd7-aa10-4fd6-aaa6-115595a0891b))
   (pad "2" smd rect (at -1.9 0.75) (size 0.65 1.05) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 301c0b92-de82-43b6-bbba-d78e14f1fa0d))
   (pad "3" smd rect (at 0.55 0.75) (size 3.35 2.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 88416dd5-c87d-4d2a-9c35-1880c69fb3c1))
+  (model "${KIPRJMOD}/rf_gen.3dshapes/GS61004B.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
