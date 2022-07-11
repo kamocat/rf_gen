@@ -2198,7 +2198,7 @@
     (property "Value" "Conn_Coaxial" (id 1) (at 273.05 76.4931 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" (id 2) (at 270.51 74.93 0)
+    (property "Footprint" "rf_gen:SMA_EdgeMount" (id 2) (at 270.51 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 270.51 74.93 0)
@@ -2798,7 +2798,7 @@
     (uuid 6a1137d1-c355-4245-a3a5-ebc0c4cb3a36)
     (property "Reference" "L2" (id 0) (at 71.12 73.66 90))
     (property "Value" "650n" (id 1) (at 71.12 76.2 90))
-    (property "Footprint" "Inductor_THT:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm" (id 2) (at 71.12 80.01 0)
+    (property "Footprint" "rf_gen:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm" (id 2) (at 71.12 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 71.12 80.01 0)
@@ -3943,7 +3943,7 @@
       (reference "L1") (unit 1) (value "220n") (footprint "rf_gen:2222SQ-221")
     )
     (path "/6a1137d1-c355-4245-a3a5-ebc0c4cb3a36"
-      (reference "L2") (unit 1) (value "650n") (footprint "Inductor_THT:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm")
+      (reference "L2") (unit 1) (value "650n") (footprint "rf_gen:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm")
     )
     (path "/08e754a9-7ecc-42a3-9f67-8eb2bed20bd7"
       (reference "L3") (unit 1) (value "90n") (footprint "rf_gen:2222SQ-90N")
@@ -4009,7 +4009,7 @@
       (reference "U2") (unit 1) (value "AP62150") (footprint "rf_gen:TSOT26")
     )
     (path "/129f78c6-46f2-4b09-95be-d1628639933d"
-      (reference "rf_out1") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
+      (reference "rf_out1") (unit 1) (value "Conn_Coaxial") (footprint "rf_gen:SMA_EdgeMount")
     )
   )
 )
