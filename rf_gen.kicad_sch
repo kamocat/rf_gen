@@ -2757,7 +2757,7 @@
     (uuid 6a1137d1-c355-4245-a3a5-ebc0c4cb3a36)
     (property "Reference" "L2" (id 0) (at 71.12 73.66 90))
     (property "Value" "500n" (id 1) (at 71.12 76.2 90))
-    (property "Footprint" "rf_gen:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm" (id 2) (at 71.12 80.01 0)
+    (property "Footprint" "rf_gen:2929SQ-501" (id 2) (at 71.12 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 71.12 80.01 0)
@@ -2932,7 +2932,7 @@
     (property "Value" "500n" (id 1) (at 226.06 82.5499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "rf_gen:inductor_core_25x18" (id 2) (at 224.79 81.28 0)
+    (property "Footprint" "rf_gen:2929SQ-501" (id 2) (at 224.79 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 224.79 81.28 0)
@@ -3053,7 +3053,7 @@
     (property "Value" "220p" (id 1) (at 88.9 88.8999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (id 2) (at 86.0552 91.44 0)
+    (property "Footprint" "rf_gen:C_1111_2828Metric" (id 2) (at 86.0552 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 85.09 87.63 0)
@@ -3328,7 +3328,7 @@
     (uuid c47156a3-6b4a-4036-9b78-c505d16e9fba)
     (property "Reference" "L6" (id 0) (at 198.12 68.58 90))
     (property "Value" "760n" (id 1) (at 198.12 71.12 90))
-    (property "Footprint" "rf_gen:inductor_core_25x18" (id 2) (at 198.12 74.93 0)
+    (property "Footprint" "rf_gen:inductor_air_15x15" (id 2) (at 198.12 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 198.12 74.93 0)
@@ -3808,7 +3808,7 @@
       (reference "C4") (unit 1) (value "270p") (footprint "rf_gen:C_1111_2828Metric")
     )
     (path "/83df784d-b1a0-4244-af68-123c900020e2"
-      (reference "C5") (unit 1) (value "220p") (footprint "Capacitor_SMD:C_1210_3225Metric")
+      (reference "C5") (unit 1) (value "220p") (footprint "rf_gen:C_1111_2828Metric")
     )
     (path "/2725da87-8e8f-4289-9ad2-00cba9dc5cd8"
       (reference "C6") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1210_3225Metric")
@@ -3880,7 +3880,7 @@
       (reference "L1") (unit 1) (value "220n") (footprint "rf_gen:2222SQ-221")
     )
     (path "/6a1137d1-c355-4245-a3a5-ebc0c4cb3a36"
-      (reference "L2") (unit 1) (value "500n") (footprint "rf_gen:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm")
+      (reference "L2") (unit 1) (value "500n") (footprint "rf_gen:2929SQ-501")
     )
     (path "/08e754a9-7ecc-42a3-9f67-8eb2bed20bd7"
       (reference "L3") (unit 1) (value "90n") (footprint "rf_gen:2222SQ-90N")
@@ -3892,10 +3892,10 @@
       (reference "L5") (unit 1) (value "880n") (footprint "rf_gen:inductor_air_15x15")
     )
     (path "/c47156a3-6b4a-4036-9b78-c505d16e9fba"
-      (reference "L6") (unit 1) (value "760n") (footprint "rf_gen:inductor_core_25x18")
+      (reference "L6") (unit 1) (value "760n") (footprint "rf_gen:inductor_air_15x15")
     )
     (path "/7a159c21-e862-45a0-a144-a80f91e5bc31"
-      (reference "L7") (unit 1) (value "500n") (footprint "rf_gen:inductor_core_25x18")
+      (reference "L7") (unit 1) (value "500n") (footprint "rf_gen:2929SQ-501")
     )
     (path "/12596e45-6707-4319-9f3d-fd07bfb54475"
       (reference "L8") (unit 1) (value "3.3u") (footprint "Inductor_SMD:L_0805_2012Metric")
