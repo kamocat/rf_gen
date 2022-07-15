@@ -2207,7 +2207,7 @@
     (property "Reference" "C8" (id 0) (at 179.07 57.1499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "220p" (id 1) (at 179.07 59.6899 0)
+    (property "Value" "270p" (id 1) (at 179.07 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "rf_gen:C_1111_2828Metric" (id 2) (at 174.2948 54.61 0)
@@ -2756,7 +2756,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6a1137d1-c355-4245-a3a5-ebc0c4cb3a36)
     (property "Reference" "L2" (id 0) (at 71.12 73.66 90))
-    (property "Value" "650n" (id 1) (at 71.12 76.2 90))
+    (property "Value" "500n" (id 1) (at 71.12 76.2 90))
     (property "Footprint" "rf_gen:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm" (id 2) (at 71.12 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3050,7 +3050,7 @@
     (property "Reference" "C5" (id 0) (at 88.9 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470p" (id 1) (at 88.9 88.8999 0)
+    (property "Value" "220p" (id 1) (at 88.9 88.8999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (id 2) (at 86.0552 91.44 0)
@@ -3808,7 +3808,7 @@
       (reference "C4") (unit 1) (value "270p") (footprint "rf_gen:C_1111_2828Metric")
     )
     (path "/83df784d-b1a0-4244-af68-123c900020e2"
-      (reference "C5") (unit 1) (value "470p") (footprint "Capacitor_SMD:C_1210_3225Metric")
+      (reference "C5") (unit 1) (value "220p") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/2725da87-8e8f-4289-9ad2-00cba9dc5cd8"
       (reference "C6") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_1210_3225Metric")
@@ -3817,7 +3817,7 @@
       (reference "C7") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/174a2ad3-34b9-4b14-959e-2348b19986ae"
-      (reference "C8") (unit 1) (value "220p") (footprint "rf_gen:C_1111_2828Metric")
+      (reference "C8") (unit 1) (value "270p") (footprint "rf_gen:C_1111_2828Metric")
     )
     (path "/a7cccbe7-b022-491d-9f03-06ed65321108"
       (reference "C9") (unit 1) (value "180p") (footprint "rf_gen:C_1111_2828Metric")
@@ -3880,7 +3880,7 @@
       (reference "L1") (unit 1) (value "220n") (footprint "rf_gen:2222SQ-221")
     )
     (path "/6a1137d1-c355-4245-a3a5-ebc0c4cb3a36"
-      (reference "L2") (unit 1) (value "650n") (footprint "rf_gen:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm")
+      (reference "L2") (unit 1) (value "500n") (footprint "rf_gen:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm")
     )
     (path "/08e754a9-7ecc-42a3-9f67-8eb2bed20bd7"
       (reference "L3") (unit 1) (value "90n") (footprint "rf_gen:2222SQ-90N")
