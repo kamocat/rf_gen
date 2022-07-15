@@ -20,7 +20,7 @@
   (fp_line (start -4.25 -3.62) (end 4.25 -3.62) (layer "F.CrtYd") (width 0.05) (tstamp c0820d72-4f65-4d4e-9d58-6f178f206928))
   (pad "1" smd rect (at -2.92 0) (size 2.16 6.73) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3e46d438-5291-4d4a-ab63-88a9b464f2bd))
   (pad "2" smd rect (at 2.92 0) (size 2.16 6.73) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3e46d438-5291-4d4a-ab63-88a9b464f2bd))
-  (model "${KIPRJMOD}/rf_gen.3dshapes/2222SQ-111.wrl"
+  (model "${KIPRJMOD}/rf_gen.3dshapes/Coilcraft-2222SQ-111.wrz"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
